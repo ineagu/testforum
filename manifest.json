@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Content Hider",
+  "version": "1.0",
+  "description": "Hide the current tab content with a single click",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Click to hide/show page content"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
